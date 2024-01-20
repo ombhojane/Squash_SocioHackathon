@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.header {
+    background-color: lightblue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: pink;
+    border-radius: 5px;
+}
+
+.background-image {
+    background-image: url("https://img.freepik.com/free-vector/job-recruit-doodle-concept-with-applicant-resume_107791-11271.jpg?w=1480");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.search {
+    padding: 10px;
+    border: 1px solid lightblue;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.search-btn {
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: pink;
+    color: white;
+}
+
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cookie-card {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+}
+
+#description {
+    padding: 20px;
+    text-align: center;
+    color: grey;
+}
+
+footer {
+    background-color: lightblue;
+    color: white;
+}
+
+.custom-lightblue { background-color: #a3d5fc; } /* Replace with the actual color code from the screenshot */
+  .custom-pink { background-color: #fcb1b1; }
